@@ -1,0 +1,17 @@
+[project]
+name = "genmap"
+version = "1.0.0"
+description = "Lightweight oceanographic mapping framework"
+authors = [
+  { name="Vitor Galazzo" }
+]
+dependencies = [
+  "numpy",
+  "matplotlib",
+  "cartopy",
+  "geopy"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
